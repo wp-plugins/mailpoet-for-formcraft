@@ -68,7 +68,7 @@
 
 	function formcraft_mailpoet_addon()
 	{
-		register_formcraft_addon('MailPoet_PrintContent',263,'MailPoet','MailPoetController',plugins_url('assets/logo.png', __FILE__ ), plugin_dir_path( __FILE__ ).'templates/',1);
+		register_formcraft_addon('MailPoet_PrintContent',473,'MailPoet','MailPoetController',plugins_url('assets/logo.png', __FILE__ ), plugin_dir_path( __FILE__ ).'templates/',1);
 	}
 	function formcraft_mailpoet_scripts()
 	{
