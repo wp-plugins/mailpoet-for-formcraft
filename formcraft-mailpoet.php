@@ -6,7 +6,7 @@
 	Description: MailPoet Add-On for FormCraft
 	Author: nCrafts
 	Author URI: http://formcraft-wp.com/
-	Version: 1
+	Version: 1.0.1
 	Text Domain: formcraft-mailpoet
 	*/
 
@@ -72,10 +72,8 @@
 	}
 	function formcraft_mailpoet_scripts()
 	{
-		if (class_exists('WYSIJA')) {
-			wp_enqueue_script('formcraft-mailpoet-main-js', plugins_url( 'assets/builder.js', __FILE__ ));
-			wp_enqueue_style('formcraft-mailpoet-main-css', plugins_url( 'assets/builder.css', __FILE__ ));
-		}
+		wp_enqueue_script('formcraft-mailpoet-main-js', plugins_url( 'assets/builder.js', __FILE__ ));
+		wp_enqueue_style('formcraft-mailpoet-main-css', plugins_url( 'assets/builder.css', __FILE__ ));
 	}
 
 	function MailPoet_PrintContent()
