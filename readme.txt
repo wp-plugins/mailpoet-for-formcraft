@@ -6,11 +6,13 @@ Tested up to: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create gorgeous forms for your site using this drag-and-drop form builder.
+Create gorgeous optin forms for your site  with FormCraft, and grow your MailPoet list.
 
 == Description ==
 
 This add-on allows you to add subscribers to your MailPoet lists, with forms made with [FormCraft](http://formcraft-wp.com/)
+
+Please note that this add-on works with [FormCraft Premium](http://formcraft-wp.com/), and not [FormCraft Basic](https://wordpress.org/plugins/formcraft-form-builder/)
 
 == Changelog ==
 
